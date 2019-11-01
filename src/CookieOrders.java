@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CookieOrders {
-    private static String totalCost(int numBoxes){
+    public static String totalCost(int numBoxes){
         double cost_total;
 
         if (numBoxes >= 1 && numBoxes <= 4){

@@ -11,7 +11,7 @@ public class DiscriminantAndRoots {
             power = "2 imaginary roots.";
         }
         else{
-            power = "1 real root";
+            power = "1 real root.";
         }
         return (a + "x^2 + " + b + "x + " + c + " has " + power);
     }
